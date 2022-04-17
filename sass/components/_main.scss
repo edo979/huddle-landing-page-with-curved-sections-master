@@ -1,0 +1,36 @@
+.intro {
+  padding-inline: 10px;
+
+  justify-items: center;
+  row-gap: 100px;
+
+  &_img {
+    margin-bottom: 20px;
+  }
+}
+
+.box {
+  text-align: center;
+
+  &_img {
+    width: 30px;
+  }
+
+  &_big-text {
+    font-size: 3.7rem;
+    font-weight: 700;
+  }
+  &_text {
+    opacity: 0.65;
+  }
+
+  &:last-of-type {
+    img {
+      width: 25px;
+    }
+
+    .box_big-text {
+      font-size: 3.25rem;
+    }
+  }
+}
