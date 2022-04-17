@@ -175,7 +175,7 @@ p {
   font-size: 3.25rem;
 }
 
-#section-2 {
+.bg-image {
   position: relative;
   padding: 190px 0 110px;
   background-image: url(../images/bg-section-top-mobile-1.svg), url(../images/bg-section-bottom-mobile-1.svg);
@@ -183,7 +183,7 @@ p {
   background-position: top, bottom;
   background-size: 100% 100px, 100% 50px;
 }
-#section-2::before {
+.bg-image::before {
   content: "";
   position: absolute;
   top: 100px;
@@ -192,6 +192,15 @@ p {
   width: 100%;
   z-index: -1;
   background-color: #f5faff;
+}
+
+#section-4 {
+  padding: 125px 0 220px;
+  background-image: url(../images/bg-section-top-mobile-2.svg), url(../images/bg-section-bottom-mobile-2.svg);
+  background-size: 100% 100px, 100% 100px;
+}
+#section-4::before {
+  bottom: 100px;
 }
 
 .content-box {
@@ -232,7 +241,11 @@ p {
 }
 
 #section-2 {
-  margin-bottom: 50px;
+  margin-bottom: 130px;
+}
+
+#section-3 {
+  margin-bottom: 125px;
 }
 
 /*# sourceMappingURL=style.css.map */

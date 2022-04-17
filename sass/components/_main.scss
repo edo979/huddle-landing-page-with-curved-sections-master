@@ -35,7 +35,7 @@
   }
 }
 
-#section-2 {
+.bg-image {
   position: relative;
   padding: 190px 0 110px;
 
@@ -55,6 +55,18 @@
     z-index: -1;
 
     background-color: $Very-Pale-Blue;
+  }
+}
+
+#section-4 {
+  padding: 125px 0 220px;
+
+  background-image: url(../images/bg-section-top-mobile-2.svg),
+    url(../images/bg-section-bottom-mobile-2.svg);
+  background-size: 100% 100px, 100% 100px;
+
+  &::before {
+    bottom: 100px;
   }
 }
 
