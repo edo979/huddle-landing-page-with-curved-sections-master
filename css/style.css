@@ -222,6 +222,38 @@ p {
   font-size: 1.5rem;
 }
 
+.footer {
+  background-color: #00252e;
+  color: #f5faff;
+}
+
+.social {
+  justify-content: center;
+}
+.social div {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f5faff;
+  border-radius: 50%;
+  padding: 7px;
+}
+.social div:first-child {
+  padding: 9px;
+}
+.social div:hover, .social div:focus {
+  border-color: red;
+  cursor: pointer;
+}
+.social div:hover svg path, .social div:focus svg path {
+  fill: red;
+}
+.social svg path {
+  fill: #f5faff;
+}
+
 .container,
 .grid-container {
   width: max(320px, 81vw);
@@ -230,6 +262,11 @@ p {
 
 .grid-container {
   display: grid;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
 }
 
 .nav {

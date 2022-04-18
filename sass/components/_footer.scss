@@ -1,0 +1,41 @@
+.footer {
+  background-color: $Very-Dark-Cyan;
+  color: $Very-Pale-Blue;
+}
+
+.social {
+  justify-content: center;
+
+  div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid $Very-Pale-Blue;
+    border-radius: 50%;
+    padding: 7px;
+
+    &:first-child {
+      padding: 9px;
+    }
+
+    &:hover,
+    &:focus {
+      border-color: red;
+
+      svg path {
+        fill: red;
+      }
+
+      cursor: pointer;
+    }
+  }
+
+  svg {
+    path {
+      fill: $Very-Pale-Blue;
+    }
+  }
+}
