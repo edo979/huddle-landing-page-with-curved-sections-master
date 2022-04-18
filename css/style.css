@@ -419,6 +419,8 @@ p {
   }
   .md\:img-left .content-box_text {
     grid-column: 7/13;
+    justify-self: end;
+    max-width: 520px;
   }
 
   .footer_newsletter {
@@ -447,6 +449,11 @@ p {
 .h1 {
     font-size: 2.95rem;
     line-height: 1;
+  }
+
+  h2,
+.h2 {
+    font-size: 2.5rem;
   }
 
   .header {
@@ -495,6 +502,17 @@ p {
   }
   .box_text {
     font-size: 1.5rem;
+  }
+
+  .content-box_img {
+    margin: 0;
+  }
+  .content-box_text {
+    text-align: left;
+  }
+  .content-box_text h2 {
+    margin-bottom: 32px;
+    line-height: 1;
   }
 }
 
