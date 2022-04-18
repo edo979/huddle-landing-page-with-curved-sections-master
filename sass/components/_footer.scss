@@ -28,7 +28,7 @@
   &_newsletter {
     h2 {
       text-transform: uppercase;
-      font-size: 1.3rem;
+      font-size: 1.275rem;
       font-family: 'Open Sans', sans-serif;
       font-weight: 600;
     }
@@ -86,22 +86,14 @@
 
 .social {
   justify-content: start;
-  gap: 15px;
+  gap: 20px;
 
   div {
-    width: 30px;
-    height: 30px;
+    width: 23px;
+    height: 23px;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    border: 1px solid $Very-Pale-Blue;
-    border-radius: 50%;
-    padding: 7px;
-
-    &:first-child {
-      padding: 9px;
-    }
 
     &:hover,
     &:focus {
