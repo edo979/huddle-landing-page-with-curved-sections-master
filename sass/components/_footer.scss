@@ -1,10 +1,92 @@
 .footer {
-  background-color: $Very-Dark-Cyan;
+  position: relative;
+  padding-top: 110px;
+
+  .grid-container {
+    row-gap: 50px;
+  }
+
   color: $Very-Pale-Blue;
+
+  background-image: url(../images/bg-footer-top-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 53px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+
+    background-color: $Very-Dark-Cyan;
+  }
+
+  &_newsletter {
+    h2 {
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 15px 0 30px;
+      line-height: 1.7;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input {
+      padding: 12px 20px;
+      line-height: 1;
+
+      border: none;
+      border-radius: 5px;
+    }
+
+    .btn {
+      margin-left: auto;
+    }
+  }
+
+  &_logo {
+    svg {
+      path {
+        fill: $Very-Pale-Blue;
+      }
+    }
+  }
+
+  &_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    margin-top: 50px;
+
+    > p {
+      padding-bottom: 30px;
+    }
+
+    .flex {
+      margin-top: 10px;
+      gap: 20px;
+    }
+  }
 }
 
 .social {
-  justify-content: center;
+  justify-content: start;
+  gap: 15px;
 
   div {
     width: 30px;
