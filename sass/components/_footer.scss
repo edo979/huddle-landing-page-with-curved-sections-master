@@ -39,6 +39,8 @@
     }
 
     form {
+      position: relative;
+
       display: flex;
       flex-direction: column;
       gap: 15px;
@@ -50,6 +52,22 @@
 
       border: none;
       border-radius: 5px;
+
+      &:invalid {
+        border: 1px solid $Light-Red;
+      }
+    }
+
+    input + p {
+      display: none;
+    }
+
+    input:invalid + p {
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: -70px;
+      color: $Light-Red;
     }
 
     .btn {
