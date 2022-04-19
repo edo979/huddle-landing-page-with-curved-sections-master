@@ -249,7 +249,7 @@
     background-size: 100% 158px;
 
     &::before {
-      top: 158px;
+      top: 156px;
     }
 
     p {
@@ -275,6 +275,14 @@
 
       input {
         flex-grow: 1;
+      }
+
+      input:invalid + p {
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -30px;
+        color: $Light-Red;
       }
 
       .btn {

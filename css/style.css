@@ -288,9 +288,7 @@ p {
 }
 .footer_newsletter input:invalid + p {
   display: block;
-  position: absolute;
-  left: 0;
-  bottom: -70px;
+  margin: 0;
   color: #ff4242;
 }
 .footer_newsletter .btn {
@@ -600,7 +598,7 @@ p {
     background-size: 100% 158px;
   }
   .footer::before {
-    top: 158px;
+    top: 156px;
   }
   .footer p {
     font-size: var(--fs-300);
@@ -622,6 +620,13 @@ p {
   }
   .footer form input {
     flex-grow: 1;
+  }
+  .footer form input:invalid + p {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    color: #ff4242;
   }
   .footer form .btn {
     font-size: var(--fs-400);
