@@ -153,9 +153,13 @@
 
   .cta-box {
     margin-top: 135px;
+    margin-bottom: 0;
   }
 
   .footer {
+    margin-top: 185px;
+    padding-top: 275px;
+
     &_contacts {
       grid-column: 1 / 4;
     }
@@ -241,6 +245,13 @@
   }
 
   .footer {
+    background-image: url(../images/bg-footer-top-desktop.svg);
+    background-size: 100% 158px;
+
+    &::before {
+      top: 158px;
+    }
+
     p {
       font-size: var(--fs-300);
     }

@@ -500,8 +500,13 @@ p {
 
   .cta-box {
     margin-top: 135px;
+    margin-bottom: 0;
   }
 
+  .footer {
+    margin-top: 185px;
+    padding-top: 275px;
+  }
   .footer_contacts {
     grid-column: 1/4;
   }
@@ -568,6 +573,13 @@ p {
     font-size: 2.5rem;
   }
 
+  .footer {
+    background-image: url(../images/bg-footer-top-desktop.svg);
+    background-size: 100% 158px;
+  }
+  .footer::before {
+    top: 158px;
+  }
   .footer p {
     font-size: var(--fs-300);
   }
