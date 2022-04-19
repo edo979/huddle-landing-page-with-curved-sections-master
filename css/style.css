@@ -398,7 +398,7 @@ p {
   }
 
   .header h1 {
-    grid-column: 2/12;
+    grid-column: 1/13;
   }
   .header p {
     grid-column: 4/10;
