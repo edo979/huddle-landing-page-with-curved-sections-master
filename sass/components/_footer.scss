@@ -97,10 +97,10 @@
 
     &:hover,
     &:focus {
-      border-color: red;
+      border-color: $Very-Pale-Blue-300;
 
       svg path {
-        fill: red;
+        fill: $Very-Pale-Blue-300;
       }
 
       cursor: pointer;

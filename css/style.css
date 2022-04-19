@@ -118,6 +118,9 @@ p {
   background-color: transparent;
   cursor: pointer;
 }
+.btn:hover, .btn:focus {
+  background-color: #ff8fd8;
+}
 
 .btn-primary {
   padding: 10px 40px;
@@ -130,13 +133,18 @@ p {
 
 .btn-transparent {
   padding: 5px 15px;
-  border: 1px solid #ff8fd8;
-  color: #ff8fd8;
+  border: 1px solid #ff52bf;
+  color: #ff52bf;
   font-size: 0.65rem;
   font-weight: 600;
   line-height: 1.2;
   text-transform: capitalize;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+}
+.btn-transparent:hover, .btn-transparent:focus {
+  background-color: transparent;
+  border: 1px solid #ff8fd8;
+  color: #ff8fd8;
 }
 
 .btn-square {
@@ -304,11 +312,11 @@ p {
   justify-content: center;
 }
 .social div:hover, .social div:focus {
-  border-color: red;
+  border-color: #66baff;
   cursor: pointer;
 }
 .social div:hover svg path, .social div:focus svg path {
-  fill: red;
+  fill: #66baff;
 }
 .social svg path {
   fill: #f5faff;
