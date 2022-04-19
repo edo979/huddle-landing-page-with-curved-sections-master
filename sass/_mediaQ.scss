@@ -170,4 +170,30 @@
       }
     }
   }
+
+  #section-2 {
+    padding: 240px 0 180px;
+
+    background-image: url(../images/bg-section-top-desktop-1.svg),
+      url(../images/bg-section-bottom-desktop-1.svg);
+    background-size: 100% 165px, 100% 139px;
+
+    &::before {
+      top: 165px;
+      bottom: 139px;
+    }
+  }
+
+  #section-4 {
+    padding: 200px 0 180px;
+
+    background-image: url(../images/bg-section-top-desktop-2.svg),
+      url(../images/bg-section-bottom-desktop-2.svg);
+    background-size: 100% 156px, 100% 139px;
+
+    &::before {
+      top: 156px;
+      bottom: 139px;
+    }
+  }
 }
